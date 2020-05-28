@@ -10,6 +10,9 @@
 let temp = 31;
 let isFreezing = temp === 31;
 console.log(isFreezing);
+if (temp < 45) {
+  console.log('It is cold. Far too cold.');
+}
 
 let age = 21;
 let isChild = age <= 7;
